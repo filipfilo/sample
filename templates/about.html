@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+    	<div class="sidebar-module sidebar-module-inset">
+    		<h4>search</h4>
+                	<form class="form-inline" method="GET" action="search">
+                		<div class="form-group">
+                			<label for="query">Name</label>
+                			<input type="text" class="form-control" name="query" id="query">
+                		</div>
+            			<button type="submit class="brn brn-primary">Search</button>
+            		</form>
+        </div>
+    </div>
+   
+{% endblock content %}
